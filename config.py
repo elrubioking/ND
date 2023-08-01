@@ -14,21 +14,21 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝙉𝘿_𝙎𝘼𝙂𝙄𝙏𝙏𝘼𝙍𝙄𝙐𝙎 𝙈𝙐𝙎𝙄𝘾")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6088744907").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AnonymousX1025/AnonXMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/elrubioking/ND")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Pr0f3ssorEra")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/BUBBLYHOUSE")
 
-SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
+SUPPORT_HEHE = SUPPORT_GROUP.split("me/ND_SAGITTARIUS")[1]
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
@@ -135,4 +135,4 @@ if PING_IMG_URL:
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/56d1760224589ee370186.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/ce432ac66ff5ba39ecb84.jpg"
